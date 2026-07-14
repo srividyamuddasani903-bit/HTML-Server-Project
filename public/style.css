@@ -1,0 +1,44 @@
+.result {
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.result p {
+    margin: 8px 0;
+    overflow-wrap: break-word;
+}
+body{
+    background:#f4f4f4;
+    font-family:Arial;
+}
+
+.container{
+    width:350px;
+    margin:80px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px gray;
+}
+
+input{
+    width:90%;
+    padding:10px;
+    margin:15px 0;
+}
+
+button{
+    background:blue;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:green;
+}
